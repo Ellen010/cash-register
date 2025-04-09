@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --sand: #e9edc9;
+  --blue: #6CA6C1;
+  --brown: #a98467;
+  --dbrown: #6c584c;
+  --herb: #dde5b6;
+  --green: #adc178;
+  --beige: #f0ead2;
+  --ocean: #00296b;
+  --flower: #eddea4;
+}
+
+body {
+  background-color: var(--beige);
+  color: var(--sand);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 50px 0;
+  text-align: center;
+  color: var(--dbrown);
+}
+
+#change-due {
+  text-align: left;
+  font-size: 1.2rem;
+  color: var(--dbrown);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0 20px;
+}
+
+label {
+  font-size: 24px;
+  padding:10px;
+  color: var(--dbrown);
+}
+
+.user-input {
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 5px solid var(--dbrown);
+}
+
+.price-screen {
+  border: 10px solid var(--dbrown);
+  border-radius: 10px;
+  background-color: var(--herb);
+  height: 50px;
+  width: 200px;
+  margin-left: -40px;
+  color: var(--dbrown);
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#price {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.connector {
+  margin-left: -20px;
+  background-color: var(--brown);
+  height: 30px;
+  width: 40px;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 35px 35px 0 0;
+  padding: 20px 10px 10px 10px;
+ background-color: var(--brown);
+  height: 280px;
+  width: 350px;
+}
+
+.btns-container {
+  width: 25%;
+  padding: 6px;
+}
+
+.btn {
+  border-radius: 10%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--green);
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--green);
+  border: 10px solid var(--dbrown);
+  border-width: 3px;
+  color: var(--dbrown);
+  border-radius:5px;
+}
+
+.cash-drawer-display {
+  font-size: 1.1rem;
+  background-color: var(--herb);
+  width: 55%;
+  height: 95%;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bottom-register {
+  background-color: var(--brown);
+  height: 50px;
+  width: 350px;
+  margin-top: 10px;
+  border-radius:  0 0 35px 35px;
+}
+
+.circle {
+  margin: 15px auto;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--green);
+}
